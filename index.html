@@ -3,67 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LV8 Bug Bounty</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>LV8 Bug Bounty Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            max-width: 600px;
+            text-align: center;
+        }
+        .link {
+            display: block;
+            margin-bottom: 20px;
+            padding: 10px 20px;
+            background-color: #fff;
+            border: 2px solid #3498db;
+            border-radius: 5px;
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+        .link:hover {
+            background-color: #3498db;
+            color: #fff;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>LV8 Bug Bounty</h1>
-        </div>
-    </header>
-
-    <div class="linktree">
-        <div class="container">
-            <div class="link-item">
-                <a href="#about">About Us</a>
-            </div>
-            <div class="link-item">
-                <a href="#services">Services</a>
-            </div>
-            <div class="link-item">
-                <a href="#contact">Contact Us</a>
-            </div>
-        </div>
+    <div class="container">
+        <a class="link" href="https://lv8.io/">LV8 Bug Bounty Website</a>
+        <a class="link" href="https://lv8.io/submit-bug">Submit a Bug</a>
+        <a class="link" href="https://lv8.io/rewards">Rewards</a>
+        <a class="link" href="https://lv8.io/faq">FAQ</a>
+        <a class="link" href="https://lv8.io/contact">Contact</a>
     </div>
-
-    <section id="about">
-        <div class="container">
-            <h2>About Us</h2>
-            <p>Welcome to LV8 Bug Bounty, where we aim to secure the digital world by identifying vulnerabilities.</p>
-            <!-- Add more about your company here -->
-        </div>
-    </section>
-
-    <section id="services">
-        <div class="container">
-            <h2>Our Services</h2>
-            <ul>
-                <li>Web Application Security Testing</li>
-                <li>Mobile Application Security Testing</li>
-                <li>Network Security Assessment</li>
-                <!-- Add more services here -->
-            </ul>
-        </div>
-    </section>
-
-    <section id="contact">
-        <div class="container">
-            <h2>Contact Us</h2>
-            <p>If you have any questions or would like to request our services, please fill out the form below.</p>
-            <form action="submit.php" method="post">
-                <input type="text" name="name" placeholder="Your Name" required>
-                <input type="email" name="email" placeholder="Your Email" required>
-                <textarea name="message" placeholder="Your Message" required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 LV8 Bug Bounty. All rights reserved.</p>
-        </div>
-    </footer>
 </body>
 </html>
