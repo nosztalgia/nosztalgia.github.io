@@ -6,26 +6,42 @@
     <title>Lv8's Pentesting BEAUTIFULLL</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f5f5f5;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #4e54c8, #8f94fb);
             color: #333;
             margin: 0;
             padding: 0;
         }
         header {
-            background-color: #007bff;
+            background: linear-gradient(to right, #667eea, #764ba2);
             color: #fff;
             padding: 20px;
             text-align: center;
         }
         h1 {
             margin-top: 0;
+            font-weight: 700;
+            font-size: 36px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
         }
         section {
             padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 20px;
+            width: 300px;
+            text-align: center;
         }
         footer {
-            background-color: #333;
+            background: linear-gradient(to right, #667eea, #764ba2);
             color: #fff;
             text-align: center;
             padding: 10px 0;
@@ -42,24 +58,26 @@
 </header>
 
 <section>
-    <h2>About Lv8</h2>
-    <p>Lv8 is a skilled pentester operating on Ubuntu and Exegol. With years of experience in cybersecurity, Lv8 is dedicated to ensuring the security of systems and networks.</p>
-</section>
+    <div class="card">
+        <h2>About Lv8</h2>
+        <p>Lv8 is a skilled pentester operating on Ubuntu and Exegol. With years of experience in cybersecurity, Lv8 is dedicated to ensuring the security of systems and networks.</p>
+    </div>
 
-<section>
-    <h2>Tools Used</h2>
-    <ul>
-        <li>Ubuntu</li>
-        <li>Exegol</li>
-        <!-- You can add more tools here -->
-    </ul>
-</section>
+    <div class="card">
+        <h2>Tools Used</h2>
+        <ul>
+            <li>Ubuntu</li>
+            <li>Exegol</li>
+            <!-- You can add more tools here -->
+        </ul>
+    </div>
 
-<section>
-    <h2>Contact Lv8</h2>
-    <p>Feel free to reach out to Lv8 for pentesting inquiries:</p>
-    <p>Email: lv8@pentest.com</p>
-    <!-- You can add more contact information here -->
+    <div class="card">
+        <h2>Contact Lv8</h2>
+        <p>Feel free to reach out to Lv8 for pentesting inquiries:</p>
+        <p>Email: lv8@pentest.com</p>
+        <!-- You can add more contact information here -->
+    </div>
 </section>
 
 <footer>
