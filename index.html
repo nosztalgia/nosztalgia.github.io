@@ -17,41 +17,43 @@
       * {
         cursor: url(https://cdn.discordapp.com/attachments/1237805020720795770/1238164963202170901/5.cur?ex=663e4a7b&is=663cf8fb&hm=63fb9aac675c030288da2162d9b500a91f1df9e822ae654f9c98d18646095e66&) 16 16, auto !important;
       }
-
+    
       ::-moz-selection {
         background: #bfbfbf;
         color: #000000;
       }
-
+    
       ::selection {
         background: #bfbfbf;
         color: #000000;
       }
-
+    
       body {
         margin: 0;
         padding: 0;
         font-family: 'array', sans-serif;
         font-size: 16px;
+        height: 100%; /* Set body height to 100% */
+        overflow: hidden; /* Hide any overflow */
       }
-
+    
       @media screen and (max-width: 600px) {
         body {
           font-size: 14px;
         }
       }
-
+    
       @media screen and (max-width: 480px) {
         body {
           font-size: 12px;
         }
       }
-
+    
       .container {
         max-width: 100%;
         padding: 20px;
       }
-
+    
       @media screen and (max-width: 768px) {
         .container {
           padding: 10px;
