@@ -15,30 +15,32 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
-            color: #ffffff; /* Text color */
+            color: #ffffff;
         }
         .container {
             max-width: 600px;
             text-align: center;
-            background-color: rgba(64, 0, 64, 0.7); /* Purple background with transparency */
+            background-color: rgba(64, 0, 64, 0.7);
             padding: 20px;
             border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Added box shadow for depth */
         }
         .link {
             display: block;
             margin-bottom: 20px;
-            padding: 10px 20px;
-            background-color: #000000; /* Black link background */
-            border: 2px solid #ffffff; /* White link border */
-            border-radius: 5px;
+            padding: 15px 30px; /* Increased padding for better touch experience */
+            background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+            border: 2px solid #ffffff;
+            border-radius: 30px; /* Rounded corners */
             color: #ffffff;
             text-decoration: none;
             font-weight: bold;
+            font-size: 18px; /* Slightly increased font size */
             transition: all 0.3s ease;
         }
         .link:hover {
-            background-color: #ffffff; /* White hover background */
-            color: #000000; /* Black hover color */
+            background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background on hover */
+            color: #000000;
         }
     </style>
 </head>
