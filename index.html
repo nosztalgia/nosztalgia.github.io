@@ -33,7 +33,20 @@
       body,
       * {
         font-family: &#x27;
+        font-size: 16px;
         Array&#x27;
+        @media screen and (max-width: 600px) {
+          body {
+            font-size: 14px;
+          }
+        }
+        
+        /* Styles for screens with a maximum width of 480px */
+        @media screen and (max-width: 480px) {
+          body {
+            font-size: 12px;
+          }
+        }
         ,
         sans-serif !important;
       }
