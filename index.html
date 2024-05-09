@@ -3,87 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LV8 - Home</title>
-    <link rel="stylesheet" href="styles.css"> <!-- You need to create a separate CSS file for styling -->
+    <title>LV8 Bug Bounty</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header>
+        <div class="container">
+            <h1>LV8 Bug Bounty</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-<header>
-    <div class="logo">
-        <img src="lv8_logo.png" alt="LV8 Logo">
-    </div>
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
-    <div class="login">
-        <a href="#">Login</a>
-        <a href="#">Sign Up</a>
-    </div>
-</header>
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Welcome to LV8 Bug Bounty, where we aim to secure the digital world by identifying vulnerabilities.</p>
+            <!-- Add more about your company here -->
+        </div>
+    </section>
 
-<section class="hero">
-    <h1>Welcome to LV8</h1>
-    <p>Elevate your lifestyle with our premium products.</p>
-    <a href="#" class="cta-btn">Shop Now</a>
-</section>
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Web Application Security Testing</li>
+                <li>Mobile Application Security Testing</li>
+                <li>Network Security Assessment</li>
+                <!-- Add more services here -->
+            </ul>
+        </div>
+    </section>
 
-<section class="features">
-    <div class="feature">
-        <img src="feature_icon_1.png" alt="Feature Icon">
-        <h2>Quality Products</h2>
-        <p>Discover our high-quality products crafted with precision.</p>
-    </div>
-    <div class="feature">
-        <img src="feature_icon_2.png" alt="Feature Icon">
-        <h2>Customer Satisfaction</h2>
-        <p>Join thousands of satisfied customers who love our products.</p>
-    </div>
-    <div class="feature">
-        <img src="feature_icon_3.png" alt="Feature Icon">
-        <h2>Fast Shipping</h2>
-        <p>Get your orders delivered quickly with our reliable shipping service.</p>
-    </div>
-</section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or would like to request our services, please fill out the form below.</p>
+            <form action="submit.php" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
 
-<section class="testimonials">
-    <h2>What Our Customers Say</h2>
-    <div class="testimonial">
-        <img src="customer_1.jpg" alt="Customer Photo">
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam condimentum elit id urna volutpat..."</p>
-        <span>- John Doe</span>
-    </div>
-    <div class="testimonial">
-        <img src="customer_2.jpg" alt="Customer Photo">
-        <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium..."</p>
-        <span>- Jane Smith</span>
-    </div>
-</section>
-
-<footer>
-    <div class="footer-logo">
-        <img src="lv8_logo.png" alt="LV8 Logo">
-    </div>
-    <div class="footer-links">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </div>
-    <div class="footer-social">
-        <a href="#"><img src="facebook_icon.png" alt="Facebook"></a>
-        <a href="#"><img src="twitter_icon.png" alt="Twitter"></a>
-        <a href="#"><img src="instagram_icon.png" alt="Instagram"></a>
-    </div>
-</footer>
-
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 LV8 Bug Bounty. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
